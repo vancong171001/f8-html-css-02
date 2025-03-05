@@ -17,16 +17,13 @@ a {
 }
 
 .btn {
-  display: inline-block;
-  min-width: 118px;
-  padding: 0 16px;
-  line-height: 50px;
   color: #fff;
   text-align: center;
-  font-size: 1.6rem;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
   font-weight: 600;
-  border-radius: 24.5px;
-  background: #171100;
+  line-height: 28px; /* 175% */
 }
 
 .main-content {
@@ -37,19 +34,8 @@ a {
 }
 
 /* ========== Header ========= */
-.header {
-  background: #fffcf4;
-}
-
-.header .fixed {
-  position: sticky;
-  top: -28px;
-}
-
 .header .body {
   display: flex;
-  align-items: center;
-  padding: 36px 0 8px;
 }
 
 .nav {
@@ -84,12 +70,4 @@ a {
   height: 2px;
   border-radius: 1px;
   background: #171100;
-}
-
-.header .sign-up-btn {
-  min-width: 144px;
-}
-
-.header .action {
-  margin-left: 49px;
 }

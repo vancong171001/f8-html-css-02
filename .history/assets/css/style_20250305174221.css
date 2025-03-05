@@ -38,12 +38,7 @@ a {
 
 /* ========== Header ========= */
 .header {
-  background: #fffcf4;
-}
-
-.header .fixed {
-  position: sticky;
-  top: -28px;
+  background-color: #fff;
 }
 
 .header .body {
@@ -88,8 +83,4 @@ a {
 
 .header .sign-up-btn {
   min-width: 144px;
-}
-
-.header .action {
-  margin-left: 49px;
 }

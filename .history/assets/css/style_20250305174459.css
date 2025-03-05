@@ -88,8 +88,5 @@ a {
 
 .header .sign-up-btn {
   min-width: 144px;
-}
-
-.header .action {
-  margin-left: 49px;
+  margin-left: 4;
 }
