@@ -219,7 +219,7 @@ a {
   display: flex;
   align-items: center;
   border: none;
-  background: transparent;
+  background: #fffcf4;
   margin-left: 28px;
   cursor: pointer;
 }
