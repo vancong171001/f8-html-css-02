@@ -412,15 +412,10 @@ a {
   padding: 96px 0;
 }
 
-.feedback-list {
-  display: flex;
-  overflow: hidden;
-}
+.f
 
-.feedback-item {
+.feedback .feedback-item {
   display: flex;
-  flex-shrink: 0;
-  width: 100%;
 }
 
 .feedback-item .avatar {

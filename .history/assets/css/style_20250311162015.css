@@ -414,7 +414,6 @@ a {
 
 .feedback-list {
   display: flex;
-  overflow: hidden;
 }
 
 .feedback-item {
