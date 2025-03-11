@@ -65,17 +65,6 @@ a {
 
 .line-clamp {
   display: -webkit-box;
-  -webkit-line-clamp: var(--line-clamp, 1);
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.line-clamp.line-2 {
-  --line-clamp: 2;
-}
-
-.break-all {
-  word-break: break-all;
 }
 
 /* ========== Header ========= */
@@ -282,7 +271,7 @@ a {
   padding: 0 8px 0 28px;
 }
 
-/* ========== Popular ========= */
+/* ========== Hero ========= */
 .popular {
   padding: 65px 0;
   margin-top: 135px;
@@ -364,11 +353,11 @@ a {
 }
 
 .popular .course-item .title a {
-  padding-right: 6px;
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.67; /* 166.667% */
+
 }
 
 .popular .rating .value {

@@ -74,10 +74,6 @@ a {
   --line-clamp: 2;
 }
 
-.break-all {
-  word-break: break-all;
-}
-
 /* ========== Header ========= */
 .header {
   background: #fffcf4;
@@ -282,7 +278,7 @@ a {
   padding: 0 8px 0 28px;
 }
 
-/* ========== Popular ========= */
+/* ========== Hero ========= */
 .popular {
   padding: 65px 0;
   margin-top: 135px;

@@ -71,11 +71,7 @@ a {
 }
 
 .line-clamp.line-2 {
-  --line-clamp: 2;
-}
-
-.break-all {
-  word-break: break-all;
+  --line-clamb: 2;
 }
 
 /* ========== Header ========= */
@@ -282,7 +278,7 @@ a {
   padding: 0 8px 0 28px;
 }
 
-/* ========== Popular ========= */
+/* ========== Hero ========= */
 .popular {
   padding: 65px 0;
   margin-top: 135px;
@@ -364,7 +360,6 @@ a {
 }
 
 .popular .course-item .title a {
-  padding-right: 6px;
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;

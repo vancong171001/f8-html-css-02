@@ -75,7 +75,7 @@ a {
 }
 
 .break-all {
-  word-break: break-all;
+  w
 }
 
 /* ========== Header ========= */
@@ -282,7 +282,7 @@ a {
   padding: 0 8px 0 28px;
 }
 
-/* ========== Popular ========= */
+/* ========== Hero ========= */
 .popular {
   padding: 65px 0;
   margin-top: 135px;
