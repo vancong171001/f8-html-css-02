@@ -451,12 +451,10 @@ a {
   height: 6px;
   border-radius: 50%;
   background: #634700;
-  cursor: pointer;
 }
 
 .feedback-item .info .dot.active {
-  background: var(--primary-color);
-  cursor: default;
+  background: ;
 }
 
 .feedback-item .content {

@@ -456,7 +456,7 @@ a {
 
 .feedback-item .info .dot.active {
   background: var(--primary-color);
-  cursor: default;
+  cursor: n;
 }
 
 .feedback-item .content {

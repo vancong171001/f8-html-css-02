@@ -451,12 +451,6 @@ a {
   height: 6px;
   border-radius: 50%;
   background: #634700;
-  cursor: pointer;
-}
-
-.feedback-item .info .dot.active {
-  background: var(--primary-color);
-  cursor: default;
 }
 
 .feedback-item .content {
@@ -469,5 +463,5 @@ a {
   color: #fff;
   font-size: 2.6rem;
   font-style: italic;
-  line-height: 1.54; /* 153.846% */
+  line-height: 40px; /* 153.846% */
 }

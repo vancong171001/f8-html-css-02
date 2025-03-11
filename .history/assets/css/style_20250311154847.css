@@ -442,32 +442,11 @@ a {
 .feedback-item .info .dots {
   margin-top: 28px;
   display: flex;
-  /* gap: 6px;   */
 }
 
 .feedback-item .info .dot {
-  margin-right: 6px;
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #634700;
-  cursor: pointer;
-}
-
-.feedback-item .info .dot.active {
-  background: var(--primary-color);
-  cursor: default;
-}
-
-.feedback-item .content {
-  width: 66%;
-  margin-left: auto;
-}
-
-.feedback-item blockquote {
-  margin-left: 30px;
-  color: #fff;
-  font-size: 2.6rem;
-  font-style: italic;
-  line-height: 1.54; /* 153.846% */
+  background: #2E2100;
 }
