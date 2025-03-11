@@ -36,7 +36,6 @@ a {
 
 .btn:hover {
   opacity: 0.9;
-  cursor: pointer;
 }
 
 .heading {
@@ -301,7 +300,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-color);
+  color: var(--primary-color); 
 }
 
 .popular-top .control-btn:hover {
@@ -313,79 +312,13 @@ a {
 .popular .course-list {
   margin-top: 55px;
   display: flex;
-  gap: 30px;
 }
 
 .popular .course-item {
   flex: 1;
-  border-radius: 12px;
-  border: 1px solid #e2dfda;
-  background: #fff;
-}
-
-.popular .course-item:hover {
-  border-color: transparent;
-  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
 }
 
 .popular .course-item .thumb {
-  width: calc(100% + 2px);
-  border-radius: 12px 12px 0px 0px;
-  height: 278px;
-  object-fit: cover;
-  margin: -1px;
-}
-
-.popular .info {
-  margin: 16px 22px 22px;
-}
-
-.popular .course-item .head,
-.popular .course-item .rating,
-.popular .course-item .foot {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.popular .course-item .title a {
-  color: #171100;
-  font-size: 1.8rem;
-  font-weight: 600;
-  line-height: 1.67; /* 166.667% */
-
-}
-
-.popular .rating .value {
-  color: #fea31b;
-  font-size: 1.6rem;
-  margin-left: 6px;
-  line-height: 1.75;
-}
-
-.popular .desc {
-  color: #5f5b53;
-  font-size: 1.4rem;
-  line-height: 1.86; /* 185.714% */
-  margin-top: 6px;
-}
-
-.popular .foot {
-  margin-top: 12px;
-}
-
-.popular .foot .price {
-  color: #171100;
-  font-size: 1.8rem;
-  font-weight: 600;
-  line-height: 1.67; /* 166.667% */
-}
-
-.popular .foot .boot-btn {
-  border: none;
-}
-
-.popular .foot .boot-btn:hover {
-  background: var(--primary-color);
-  color: white;
+  width: 100%;
+  
 }

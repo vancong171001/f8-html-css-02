@@ -348,12 +348,12 @@ a {
   align-items: center;
 }
 
-.popular .course-item .title a {
+.popular .course-item .title {
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 1.67; /* 166.667% */
-
+  
 }
 
 .popular .rating .value {
