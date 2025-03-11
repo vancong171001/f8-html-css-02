@@ -517,34 +517,7 @@ a {
   margin-top: 16px;
 }
 
-.features .content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-
 .features .content .cta-btn {
   min-width: 137px;
-  color: #fff;
-  background: var(--primary-color);
-  margin-top: 32px;
-}
-
-.features-2nd {
-  margin-top: 70px;
-}
-
-.features-2nd .body {
-  flex-direction: row-reverse;
-}
-
-.features-2nd .content {
-  width: 49%;
-}
-
-.features-2nd .images img {
-  width: 470px;
-  height: 440px;
-  border-radius: 20px;
+  color:#fff
 }

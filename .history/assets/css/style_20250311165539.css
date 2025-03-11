@@ -539,12 +539,4 @@ a {
   flex-direction: row-reverse;
 }
 
-.features-2nd .content {
-  width: 49%;
-}
-
-.features-2nd .images img {
-  width: 470px;
-  height: 440px;
-  border-radius: 20px;
-}
+.features-2nd .ima
