@@ -275,7 +275,6 @@ a {
 .popular-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .popular-top .desc {
@@ -300,11 +299,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-color); 
+  color: var(--primary-color);
 }
 
 .popular-top .control-btn:hover {
   background: var(--primary-color);
-  color: #fff;
-  cursor: pointer;
 }

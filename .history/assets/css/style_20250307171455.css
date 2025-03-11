@@ -275,7 +275,6 @@ a {
 .popular-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .popular-top .desc {
@@ -288,7 +287,6 @@ a {
 
 .popular-top .controls {
   display: flex;
-  gap: 18px;
 }
 
 .popular-top .control-btn {
@@ -296,15 +294,7 @@ a {
   border: 1px solid var(--primary-color);
   width: 40px;
   height: 40px;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--primary-color); 
-}
-
-.popular-top .control-btn:hover {
-  background: var(--primary-color);
-  color: #fff;
-  cursor: pointer;
 }

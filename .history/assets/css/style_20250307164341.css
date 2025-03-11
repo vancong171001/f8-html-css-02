@@ -38,23 +38,6 @@ a {
   opacity: 0.9;
 }
 
-.heading {
-  color: #171100;
-  font-family: var(--font-heading);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-.heading.lv1 {
-  font-size: 5.8rem;
-  line-height: 1.17; /* 117.241% */
-}
-
-.heading.lv2 {
-  font-size: 3.8rem;
-  line-height: 1.26; /* 126.316% */
-}
-
 .main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
@@ -205,6 +188,15 @@ a {
   padding: 64px 0 0 130px;
 }
 
+.hero .heading {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 5.8rem;
+  font-weight: 700;
+  line-height: 1.17; /* 117.241% */
+  letter-spacing: -0.02em;
+}
+
 .hero .desc {
   margin-top: 22px;
   color: #5f5b53;
@@ -268,43 +260,5 @@ a {
 
 /* ========== Hero ========= */
 .popular {
-  padding: 65px 0;
-  margin-top: 135px;
-}
-
-.popular-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.popular-top .desc {
-  color: #5f5b53;
-  font-size: 1.8rem;
-  line-height: 1.67; /* 166.667% */
-  margin-top: 16px;
-  width: 458px;
-}
-
-.popular-top .controls {
-  display: flex;
-  gap: 18px;
-}
-
-.popular-top .control-btn {
-  background: transparent;
-  border: 1px solid var(--primary-color);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--primary-color); 
-}
-
-.popular-top .control-btn:hover {
-  background: var(--primary-color);
-  color: #fff;
-  cursor: pointer;
+  p
 }
