@@ -730,14 +730,10 @@ a {
   font-weight: 600;
   color: #fff;
 }
-
-.footer .copyright {
-  padding: 28px 0;
-}
-
 .footer .copyright p {
+  padding: 28px 0;
   color: #807d74;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 14px;
   line-height: 1.86; /* 185.714% */
 }

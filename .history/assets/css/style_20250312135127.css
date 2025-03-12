@@ -674,8 +674,6 @@ a {
 
 .footer .row {
   display: flex;
-  padding-bottom: 38px;
-  border-bottom: 1px solid #59554b;
 }
 
 .footer .row .column {
@@ -703,7 +701,7 @@ a {
 .footer .title {
   display: inline-block;
   padding-bottom: 14px;
-  border-bottom: 1px solid #59554b;
+  border-bottom: 1px solid #59554B;
   padding-right: 48px;
   color: #fff;
   font-size: 1.6rem;
@@ -715,29 +713,6 @@ a {
   margin-top: 28px;
 }
 
-.footer .list li a {
-  display: inline-block;
-  margin-bottom: 12px;
-  color: #bfbcb2;
-  font-size: 1.4rem;
-  line-height: 1.86; /* 185.714% */
-}
-
-.footer .list li:last-child a {
-  margin-bottom: -12px;
-}
-.footer .list strong {
-  font-weight: 600;
-  color: #fff;
-}
-
-.footer .copyright {
-  padding: 28px 0;
-}
-
-.footer .copyright p {
-  color: #807d74;
-  text-align: center;
-  font-size: 1.4rem;
-  line-height: 1.86; /* 185.714% */
+.footer .list  {
+  margin-top: 28px;
 }

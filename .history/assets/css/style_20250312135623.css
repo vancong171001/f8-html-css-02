@@ -674,8 +674,6 @@ a {
 
 .footer .row {
   display: flex;
-  padding-bottom: 38px;
-  border-bottom: 1px solid #59554b;
 }
 
 .footer .row .column {
@@ -728,16 +726,5 @@ a {
 }
 .footer .list strong {
   font-weight: 600;
-  color: #fff;
-}
-
-.footer .copyright {
-  padding: 28px 0;
-}
-
-.footer .copyright p {
-  color: #807d74;
-  text-align: center;
-  font-size: 1.4rem;
-  line-height: 1.86; /* 185.714% */
+  color
 }
