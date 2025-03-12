@@ -572,14 +572,12 @@ a {
   margin-top: 55px;
   display: flex;
   gap: 30px;
-  overflow: hidden;
 }
 
 .blog .blog-item {
-  width: calc(33.33% - 20px);
-  border-radius: 16px; 
+  width: 33.33%;
+  border-radius: 16px;
   background: #fff;
-  flex-shrink: 0;
 }
 
 .blog .blog-item:hover {
@@ -661,7 +659,6 @@ a {
   cursor: pointer;
 }
 
-.blog .dot.active {
-  cursor: default;
+.blog .dot:active {
   background: var(--primary-color);
 }

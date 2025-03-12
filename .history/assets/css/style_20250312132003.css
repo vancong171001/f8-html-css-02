@@ -576,8 +576,8 @@ a {
 }
 
 .blog .blog-item {
-  width: calc(33.33% - 20px);
-  border-radius: 16px; 
+  width: calc33.33%;
+  border-radius: 16px;
   background: #fff;
   flex-shrink: 0;
 }
@@ -661,7 +661,7 @@ a {
   cursor: pointer;
 }
 
-.blog .dot.active {
+.blog .dot:active {
   cursor: default;
   background: var(--primary-color);
 }
